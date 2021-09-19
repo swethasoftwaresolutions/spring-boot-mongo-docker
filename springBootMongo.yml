@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: swethadocker1/spring-boot-mongo:${buildnumber}
+        image: swethadocker1/spring-boot-mongo:18
         ports:
         - containerPort: 8080
         env:
